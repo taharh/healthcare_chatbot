@@ -28,10 +28,3 @@ Our	program	uses	a	number	of	python	modules	to	work	properly:
 1. matplotlib
 
 
-
-
-## :suspect: Project Members
-
-- [Aryan Veturekar](https://github.com/aryanveturekar)
-- [Himanshu Singh](https://github.com/himanshusiingh)
-- [Danish Shaikh](https://github.com/danishsshaikh)
