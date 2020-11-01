@@ -182,23 +182,7 @@ def api_ai_analysis(message):
 
 def api_ai_filled(message):
 
-    CLIENT_ACCESS_TOKEN = 'f2c3166a316843ca95e399a19333c873'
-    ai = apiai.ApiAI(API_AI_KEY)
-    request = ai.text_request()
-    request.lang = 'en'  # optional, default value equal 'en'
-    request.query = message
-    response = request.getresponse()
-    data = json.loads(response.read())
-    print data
-    # response = str(data["result"]["fulfillment"]["speech"])
-    symptom = str(data["result"]["parameters"]["symptoms"])
-    age = str(data["result"]["parameters"]["age"]["unit"])
-    gender = str(data["result"]["parameters"]["sex"])
-
-    if(gender!="" and age!="" and symptom!=""):
-        return True
-    else:
-        return False
+   
 
 def send_message(sender_id, message_text):
 
@@ -297,10 +281,6 @@ def init_buttom_template(sender_id):
 
     log(r.text)
 
-
-def log(message):  # simple wrapper for logging to stdout on heroku
-    print str(message)
-    sys.stdout.flush()
 
 
 if __name__ == '__main__':
