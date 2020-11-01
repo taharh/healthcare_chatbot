@@ -27,4 +27,6 @@ In any case, the utilization of artificial intelligence in an industry where ind
 - Hospictal/Clinic location Sharing: Google Static Maps API
 - NLP stuff: API.ai (didn't quite work as planned :P )
 
+NB: The app still doesn't work properly
+
 
