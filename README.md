@@ -29,4 +29,6 @@ In any case, the utilization of artificial intelligence in an industry where ind
 
 NB: The app still doesn't work properly
 
+## Credits
+- Thanks to https://github.com/hartleybrody
 
